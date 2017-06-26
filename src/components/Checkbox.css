@@ -1,0 +1,30 @@
+.my-checkbox {
+	border: 1px solid #000;
+	cursor: pointer;
+	height: 20px;
+	margin: 6px;
+	width: 20px;
+}
+
+.my-checkbox.red {
+	border-color: #D50101;
+	color: #D50101;
+}
+
+.my-checkbox.green {
+	border-color: #03743E;
+	color: #03743E;
+}
+
+.my-checkbox.bold {
+	border-width: 2px;
+	font-weight: bold;
+}
+
+.my-checkbox.rounded {
+	border-radius: 10%;
+}
+
+.my-checkbox.checked:before {
+	 content: "\2713";
+}
